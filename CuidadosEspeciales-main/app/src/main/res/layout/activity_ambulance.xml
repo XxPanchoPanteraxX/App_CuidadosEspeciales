@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/fondo_i"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondo_azul"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/image_ambulance"
+                android:contentDescription="@string/ambu" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="@string/ubidad_medica"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hospital_san_jose"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/redondo_principal_azul"
+            android:backgroundTint="#03A9F4"
+            android:text="@string/ubicacion" />
+
+        <Button
+            android:id="@+id/llamar"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/redondo_green"
+
+            android:shadowColor="@color/green"
+            android:text="@string/llamar" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/ibtn_ambulance"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_above="@+id/ibtn_abrir"
+                android:layout_alignStart="@+id/ibtn_abrir"
+                android:layout_alignEnd="@+id/ibtn_abrir"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/image_botiquin"
+                android:clickable="true"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibtn_botiquin"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_above="@+id/ibtn_abrir"
+                android:layout_alignStart="@+id/ibtn_abrir"
+                android:layout_marginStart="-91dp"
+                android:layout_marginBottom="-8dp"
+                android:background="@drawable/image_logo"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibtn_buscar"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_above="@+id/ibtn_abrir"
+                android:layout_alignEnd="@+id/ibtn_abrir"
+                android:layout_marginEnd="-91dp"
+                android:layout_marginBottom="-4dp"
+                android:background="@drawable/image_busqueda"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibtn_abrir"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/image_menu" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "780686764682",
+    "project_id": "fir-tuto-b51e1",
+    "storage_bucket": "fir-tuto-b51e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780686764682:android:244b7e76bc14f36f075b73",
+        "android_client_info": {
+          "package_name": "com.example.proyecto10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780686764682-71mtldpfgcrt0a25578t4gqge8dlvb35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLdIfppqntpYtw-4CJNe1vq9wyZFb33yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780686764682-71mtldpfgcrt0a25578t4gqge8dlvb35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

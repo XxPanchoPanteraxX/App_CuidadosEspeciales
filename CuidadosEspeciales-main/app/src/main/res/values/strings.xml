@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">CuidadosAdultosMayores</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Strings for personal information -->
+    <string name="bitacora">BITACORA</string>
+    <string name="name">NOMBRE</string>
+    <string name="ocupacion">OCUPACIÓN</string>
+    <string name="notas_realizadas">NOTAS REALIZADAS</string>
+    <string name="contraseña">CONTRASEÑA</string>
+    <string name="username">NOMBRE DE USUARIO</string>
+    <string name="edad">EDAD</string>
+    <string name="peso">PESO</string>
+    <string name="estatura">ESTATURA</string>
+    <string name="padecimientos">PADECIMIENTOS</string>
+    <string name="pacientes">LISTADO DE PACIENTES</string>
+    <string name="celular">CELULAR</string>
+    <string name="usuario">USUARIO</string>
+    <string name="cuidados_especiales">CUIDADOS ESPECIALES</string>
+    <string name="correo">CORREO</string>
+
+    <!-- Strings for buttons -->
+    <string name="entrar">ENTRAR</string>
+    <string name="regresar">Regresar</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="forgot">Olvidé mi Contraseña</string>
+    <string name="atras">Atrás</string>
+    <string name="input">  </string>
+    <string name="CLOSE">CERRAR SESIÓN</string>
+    <string name="registrar">REGISTRARSE</string>
+
+
+    <!-- Strings for images descriptions -->
+    <string name="logo_Description">Representa el logo principal</string>
+    <string name="topimage_Description">Imagen de diseño para la pantalla principal en la parte de arriba</string>
+    <string name="bottomimage_Description">Imagen de diseño para la pantalla principal en la parte de abajo</string>
+    <string name="fotoUser">Foto del Usuario previamente cargada</string>
+    <string name="exit_picture">Logo de salida</string>
+    <string name="add">botón de añadir pacientes</string>
+    <string name="ambu">Imagen de ambulancia para hacer referencia a una unidad médica</string>
+    <string name="microphone">Imagen de micrófono para hacer referencia a que se tendrá que hablar</string>
+
+    <!-- Strings ambulance -->
+    <string name="ubidad_medica">UNIDAD MÉDICA</string>
+    <string name="hospital_san_jose">HOSPITAL SAN JOSE</string>
+    <string name="ubicacion">UBICACIÓN</string>
+    <string name="distanciaKm">DISTANCIA KM</string>
+    <string name="llamar">LLAMAR</string>
+
+    <!-- Strings History -->
+    <string name="busqueda">BUSQUEDA DE ENFERMEDADES</string>
+    <string name="resultados">RESULTADOS</string>
+    <string name="chequeos_periodicos">CHEQUEOS PERÍODICOS</string>
+    <string name="suministrar_insulina">SUMINISTRAR INSULINA</string>
+    <string name="medicamentos_auxiliares">MEDICAMENTOS AUXILIARES</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="crear_cuenta"> Crear cuenta</string>
+    <string name="olvide_mi_contrasena"> Olvidé mi contraseña</string>
+    <string name="nombre">nombre</string>
+
+
+</resources>

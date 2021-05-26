@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo_g"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/fondo_ovalado_abajo"
+         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="@string/bitacora"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nombre del paciente"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/redondo_white_z"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/notas_realizadas"
+            android:textSize="20sp" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="70pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/ibtn_ambulance"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_above="@+id/ibtn_abrir"
+                    android:layout_alignStart="@+id/ibtn_abrir"
+                    android:layout_alignEnd="@+id/ibtn_abrir"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/image_ambulance"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foregroundGravity="center"
+                    android:visibility="invisible" />
+
+                <ImageButton
+                    android:id="@+id/ibtn_botiquin"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_above="@+id/ibtn_abrir"
+                    android:layout_alignStart="@+id/ibtn_abrir"
+                    android:layout_marginStart="-91dp"
+                    android:layout_marginBottom="-8dp"
+                    android:background="@drawable/image_logo"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="invisible" />
+
+                <ImageButton
+                    android:id="@+id/ibtn_buscar"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_above="@+id/ibtn_abrir"
+                    android:layout_alignEnd="@+id/ibtn_abrir"
+                    android:layout_marginEnd="-91dp"
+                    android:layout_marginBottom="-4dp"
+                    android:background="@drawable/image_busqueda"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:visibility="invisible" />
+
+                <ImageButton
+                    android:id="@+id/ibtn_abrir"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/image_menu" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+

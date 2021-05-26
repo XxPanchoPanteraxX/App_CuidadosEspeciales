@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_d"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ibtn_exit"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/exit"
+        />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:contentDescription="@string/fotoUser" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="241dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/white_card">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="@string/pacientes"
+            android:textColor="@color/gray"
+            android:textSize="24sp"
+        />
+
+        <Button
+            android:id="@+id/nombre1"
+            style="@style/AppTheme"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/redondo_green"
+            android:fontFamily="sans-serif"
+            android:text="@string/name"
+            android:textColor="@android:color/white"
+            android:textSize="12pt" />
+
+        <ImageButton
+            android:id="@+id/ibtn_add_paciente"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image_menu_green"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/ibtn_ambulance"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_above="@+id/ibtn_abrir"
+                android:layout_alignStart="@+id/ibtn_abrir"
+                android:layout_alignEnd="@+id/ibtn_abrir"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/image_ambulance"
+                android:clickable="true"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibtn_botiquin"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_above="@+id/ibtn_abrir"
+                android:layout_alignStart="@+id/ibtn_abrir"
+                android:layout_marginStart="-91dp"
+                android:layout_marginBottom="-8dp"
+                android:background="@drawable/image_botiquin"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibtn_buscar"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_above="@+id/ibtn_abrir"
+                android:layout_alignEnd="@+id/ibtn_abrir"
+                android:layout_marginEnd="-91dp"
+                android:layout_marginBottom="-4dp"
+                android:background="@drawable/image_busqueda"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/ibtn_abrir"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/image_menu" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
