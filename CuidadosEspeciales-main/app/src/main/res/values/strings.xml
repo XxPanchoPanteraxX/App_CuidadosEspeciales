@@ -28,6 +28,9 @@
     <string name="correo">CORREO</string>
 
     <!-- Strings for buttons -->
+    <string name="titulo">TÍTULO</string>
+    <string name="escribir_nota">ESCRIBIR NOTA...</string>
+    <string name="nota">NUEVA NOTA</string>
     <string name="entrar">ENTRAR</string>
     <string name="regresar">Regresar</string>
     <string name="guardar">GUARDAR</string>

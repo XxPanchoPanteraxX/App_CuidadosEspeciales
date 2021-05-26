@@ -25,6 +25,7 @@
         <activity android:name=".ambulanceActivity" />
         <activity android:name=".historyActivity" />
         <activity android:name=".profile_docActivity" />
+        <activity android:name=".Notas.AgregarNotaActivity"></activity>
 
         <activity
             android:name=".AuthActivity"
@@ -36,5 +37,5 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
